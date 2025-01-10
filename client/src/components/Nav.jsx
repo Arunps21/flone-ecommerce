@@ -161,13 +161,13 @@ const Nav = () => {
 
         {/* Hamburger Menu Icon */}
         <GiHamburgerMenu
-          className="w-5 h-5 cursor-pointer sm:hidden"
+          className="w-5 h-5 cursor-pointer sm:hidden dark:text-white"
           onClick={() => setVisible(true)}
         />
       </div>
 
       <div
-        className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all z-50 ${
+        className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white dark:bg-[#212121] transition-all z-50 ${
           visible ? "w-full" : "w-0"
         }`}
       >
