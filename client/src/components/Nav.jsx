@@ -135,6 +135,10 @@ const Nav = () => {
                   <p className="cursor-pointer hover:text-black">Login</p>
                 </Link>
               )}
+              <hr />
+              <a href="https://flone-admin.vercel.app/" target="_blank">
+                <p>Admin Panel</p>
+              </a>
             </div>
           </div>
         </div>
