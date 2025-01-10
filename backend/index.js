@@ -21,6 +21,9 @@ app.use("/admin",adminRoutes)
 app.use("/order",orderRoutes)
 app.use("/contact",contactRoutes)
 
+app.get("/",(req, res) =>{
+    res.send("Welcome to Flone-Ecommerce Backend") 
+})
 
 app.listen(port,()=>{
     console.log(`Server run at http://localhost:${port}`)
